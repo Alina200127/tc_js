@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Task Case Table</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- TABLE-1 -->
+        <section class="table-one">
+            <div class="container">
+                <table class="table">
+                    <thead>
+                        <th>A</th>
+                        <th>B</th>
+                        <th>C</th>
+                        <th>D</th>
+                        <th>E</th>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+        <!-- DROP LIST -->
+        <section class="drop-list">
+            <div class="container">
+                <div class="drop-list__inner">
+                    <div class="drop-list__A">
+                        <span>A:</span>
+                        <select class="selects" id="A">
+                            <option value="one">----</option>
+                            <option value="two">Критерий</option>
+                            <option value="three">Сумма</option>
+                            <option value="four">Макс.</option>
+                            <option value="five">Мин.</option>
+                            <option value="six">Конкат</option>
+                            <option value="seven">Среднее</option>
+                        </select>
+                    </div>
+                    <div class="drop-list__B">
+                        <span>B:</span>
+                        <select class="selects" id="B">
+                            <option value="one">----</option>
+                            <option value="two">Критерий</option>
+                            <option value="three">Сумма</option>
+                            <option value="four">Макс.</option>
+                            <option value="five">Мин.</option>
+                            <option value="six">Конкат</option>
+                            <option value="seven">Среднее</option>
+                        </select>
+                    </div>
+                    <div class="drop-list__C">
+                        <span>C:</span>
+                        <select class="selects" id="C">
+                            <option value="one">----</option>
+                            <option value="two">Критерий</option>
+                            <option value="three">Сумма</option>
+                            <option value="four">Макс.</option>
+                            <option value="five">Мин.</option>
+                            <option value="six">Конкат</option>
+                            <option value="seven">Среднее</option>
+                        </select>
+                    </div>
+                    <div class="drop-list__D">
+                        <span>D:</span>
+                        <select class="selects" id="D">
+                            <option value="one">----</option>
+                            <option value="two">Критерий</option>
+                            <option value="three">Сумма</option>
+                            <option value="four">Макс.</option>
+                            <option value="five">Мин.</option>
+                            <option value="six">Конкат</option>
+                            <option value="seven">Среднее</option>
+                        </select>
+                    </div>
+                    <div class="drop-list__E">
+                        <span>E:</span>
+                        <select class="selects" id="E">
+                            <option value="one">----</option>
+                            <option value="two">Критерий</option>
+                            <option value="three">Сумма</option>
+                            <option value="four">Макс.</option>
+                            <option value="five">Мин.</option>
+                            <option value="six">Конкат</option>
+                            <option value="seven">Среднее</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="submit" class="button" id="grouping">Сгруппировать</button>
+                </div>
+            </div>
+        </section>
+        <!-- TABLE-2 -->
+        <section class="table-two">
+            <div class="container">
+                <table class="table table-result"></table>
+                <div class="btn btn-sort"></div>
+                <div class="sorting none">
+                    <span>Алгоритм сортировки:</span>
+                    <select class="selects selects-sort">
+                        <option value="bubble">Пузырьковая</option>
+                        <option value="moving">Перемещением</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <script src="./JS/main.js"></script>
+    </body>
+</html>
